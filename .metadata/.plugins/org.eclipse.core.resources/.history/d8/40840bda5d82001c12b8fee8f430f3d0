@@ -1,0 +1,5 @@
+spring.application.name=limits-service
+spring.cloud.config.enabled=false
+server.port=8081
+limits-service.minimum=99
+limits-service.maximum=999
