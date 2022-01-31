@@ -1,0 +1,60 @@
+package com.nagarro.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+    
+	
+	
+	/*
+	 * @GetMapping("/users") public List<User> getAllUsers(){
+	 * 
+	 * return userDaoService.findAll(); }
+	 * 
+	 * @GetMapping("/users/{id}") public EntityModel<User> getUserById(@PathVariable
+	 * int id) throws UserPrincipalNotFoundException{
+	 * 
+	 * User user= userDaoService.findOne(id); if(user==null) { throw new
+	 * UserPrincipalNotFoundException("id-"+id); }
+	 * 
+	 * WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).getAllUsers());
+	 * 
+	 * 
+	 * EntityModel<User> model=EntityModel.of(user);
+	 * 
+	 * model.add(linkTo.withRel("all-users"));
+	 * 
+	 * 
+	 * return model; }
+	 * 
+	 * @PostMapping("/users/") public void createUser(@Valid @RequestBody User
+	 * user){
+	 * 
+	 * userDaoService.save(user);
+	 * 
+	 * }
+	 * 
+	 * @DeleteMapping("/users/{id}") public void deleteUser(@PathVariable int id)
+	 * throws UserPrincipalNotFoundException { User
+	 * user=userDaoService.deleteById(id); if(user==null) { throw new
+	 * UserPrincipalNotFoundException("id-"+id); }
+	 * 
+	 * }
+	 */
+//	@GetMapping(path="/interlization")
+//	public String interlized(//@RequestHeader(name="Accept-Language",required =false) Locale locale) {
+//		return  messageSource.getMessage("good.morning.message",null,"Default Message", LocaleContextHolder.getLocale());
+//	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

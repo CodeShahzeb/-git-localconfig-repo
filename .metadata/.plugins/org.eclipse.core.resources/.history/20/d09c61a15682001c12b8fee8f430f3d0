@@ -1,0 +1,8 @@
+package com.nagarro.limitsservice.bean;
+
+public class LimitConfiguration {
+    
+	int maximun;
+	int minimum;
+	
+}

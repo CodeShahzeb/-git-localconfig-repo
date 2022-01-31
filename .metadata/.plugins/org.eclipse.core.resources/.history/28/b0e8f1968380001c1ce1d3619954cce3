@@ -1,0 +1,5 @@
+package com.nagarro.controller;
+
+public class UserController {
+
+}
